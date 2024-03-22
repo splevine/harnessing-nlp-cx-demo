@@ -1,8 +1,8 @@
 # DataHour: Harnessing ML and NLP for Elevated Customer Experiences
 Slides, Demo Notebooks and Data for Presentation: 
-DataHour: Harnessing ML and NLP for Elevated Customer Experiences 
+[DataHour: Harnessing ML and NLP for Elevated Customer Experiences](Training Data: Before Fine-Tuning Embedding) 
 
-link: https://shorturl.at/BNR57
+
 
 ## Visualizing BERTopic Outputs using DataMapPlot
 ![download](https://github.com/splevine/harnessing-nlp-cx-demo/assets/4715331/06be45b9-a8f7-485a-a6ec-f20ae478a407)
