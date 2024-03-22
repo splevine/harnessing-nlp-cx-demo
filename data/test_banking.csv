@@ -1,0 +1,408 @@
+,utterance,utterance_id,intents
+0,"Can I transfer some funds from my bank account to a different one? My withdrawal account number is zero six six nine seven two eight two. And the one that I'm trying to deposit to is one nine three seven three nine, fifty-seven, and I'm trying to send one thousand dollars.",banking_279,InternalFundsTransfer
+1,"I wanna find the nearest ATM to Seattle, Washington, nine eight one zero five.",banking_210,FindATM
+2,I got billed twice for something I only purchased one of. Obvious error. Can you help?,banking_150,DisputeCharge
+3,I'd like to update my phone number on my account. pin is 1512,banking_402,UpdatePhoneNumber
+4,When are your physical branches open?,banking_029,GetBranchHours
+5,"Hi there, so right now I'm visiting Dover, Delaware, and I'm just curious where the physical, the closest physical branch is to me.",banking_228,FindBranch
+6,What ATMs do you have in St. Louis?,banking_216,FindATM
+7,Hi there could you help me today? I need to close my account. For me it's just too hard to make the minimum requirements to avoid paying the the fee so I'm gonna close my account and move the funds to a different bank.,banking_115,CloseBankAccount
+8,Hello I need to report a transaction on my account that I did not intend to make. The credit card number associated is five eight six nine two three four zero eight one nine two nine nine two one. The purchase is about sixty-six dollars and seventy-two cents. And this occurred on October first two thousand nineteen. And my reason for disputing it is because I did not authorize this purchase.,banking_137,DisputeCharge
+9,I want to update my email address.,banking_382,UpdateEmail
+10,What is the limit on the amount that can be withdrawn from that account per day?,banking_275,GetWithdrawalLimit
+11,I'd rather not call next time. Can you show me how to set this up online?,banking_253,SetUpOnlineBanking
+12,I want to see my transaction history,banking_093,CheckTransactionHistory
+13,I need to send a payment via wire transfer.,banking_185,ExternalWireTransfer
+14,I was hoping to deposit some cash in one of my accounts. Is that possible from an ATM?,banking_006,AskAboutCashDeposits
+15,I need to make a cash deposit and was wondering where I could find one of your ATMs. Can you help?,banking_209,FindATM
+16,"Hello, I want to close my bank account and transfer my remaining funds to a different account that I own.",banking_109,CloseBankAccount
+17,Can you tell me how much money I have saved?,banking_054,CheckAccountBalance
+18,Where are your branches in St. Louis?,banking_236,FindBranch
+19,What do I do if I saw a purchase I didn't make? Can I dispute it?,banking_164,DisputeCharge
+20,What time is your branch open? I was hoping to stop by first thing,banking_028,GetBranchHours
+21,"Hi, I'd like to check the balance on my account. My bank account number is four two seven one five six seven four five zero.",banking_069,CheckAccountBalance
+22,"Hey, could you help me update my address?",banking_355,UpdateStreetAddress
+23,"Hi, I want to open a savings account with Bank of America.",banking_317,OpenBankingAccount
+24,Good morning can you help me find the nearest branch location?,banking_219,FindBranch
+25,"Hi, I was hoping if you could tell me how long it takes for wire transfers to be sent",banking_036,AskAboutTransferTime
+26,I think I hit a withdrawal limit. How much can I withdraw per day?,banking_269,GetWithdrawalLimit
+27,Hi. I'd like to know the balance of my checking account please,banking_070,CheckAccountBalance
+28,Hey there can you help me find the closest branch to my location? My street address is seventy-eight ninety-three Rutherford Avenue.,banking_223,FindBranch
+29,Hi I'm seeing an charge on my account that I don't recognize so I need some help with that.,banking_142,DisputeCharge
+30,I'm closing one of my accounts with you and I'm just looking to transfer my remaining funds to one of my other accounts.,banking_127,CloseBankAccount
+31,"I'd like to open an account with you, can you walk me through that?",banking_323,OpenBankingAccount
+32,I need to make a cash deposit. Can I do it at one of your ATMs?,banking_004,AskAboutCashDeposits
+33,Transfer three hundred from checking to savings,banking_299,InternalFundsTransfer
+34,"Hi, I just moved here and I would like to open a new bank account.",banking_315,OpenBankingAccount
+35,I'm calling to inform you of a fraudulent transaction on mystatement.,banking_160,DisputeCharge
+36,"Hi, so I live on Brady Street, in Milwaukee, Wisconsin. And I'm just looking for the closest branch so I can go in.",banking_233,FindBranch
+37,I need to transfer some money to my checking account,banking_296,InternalFundsTransfer
+38,"Hi, can you help me find the closest ATM? I live on forty-two seventy-three Birch Street.",banking_206,FindATM
+39,I just wanted some help updating my address.,banking_359,UpdateStreetAddress
+40,Hi I want to change my email address thanks.,banking_375,UpdateEmail
+41,Hi could you help me find the closest ATM to my location?,banking_203,FindATM
+42,Can you send me a log of my most recent purchases on my credit card? I need to verify some transactions,banking_084,CheckTransactionHistory
+43,"Hey there, I think my credit card has been stolen or maybe I just lost it. But I need to, you know, take those steps to close it.",banking_332,ReportLostStolenCard
+44,Good morning. I need to change my email address,banking_369,UpdateEmail
+45,Could you give me some information on how to manage my account online?,banking_240,SetUpOnlineBanking
+46,Hi there I was hoping you could tell me the balance of my checking account,banking_065,CheckAccountBalance
+47,Hi could you help me check the balance on my account number five six six five eight nine seven five four two two one?,banking_062,CheckAccountBalance
+48,View recent purchases,banking_098,CheckTransactionHistory
+49,"Hi, good morning. I need to update my email address for my business.",banking_376,UpdateEmail
+50,"Yep, I was hoping to update my billing address. Can you help with that?",banking_364,UpdateStreetAddress
+51,"Where can I find the closest physical branch to where I'm at? I'm at ninety-one dash fifty-four thirty-one Kapolei Parkway, in the city Kapolei, Hawaii, nine six seven zero seven, thanks.",banking_237,FindBranch
+52,Daily withdrawal limit,banking_263,GetWithdrawalLimit
+53,Hello there I need to change my email address please,banking_370,UpdateEmail
+54,Can you tell me the maximum withdrawal that I can make?,banking_262,GetWithdrawalLimit
+55,"Out of curiosity, how much could one withdraw from an account per day?",banking_273,GetWithdrawalLimit
+56,"Hello I would like to open up an account with the bank. My first name is Jenny, my last name is Lee, my date of birth is October eighteenth, nineteen eighty-five. My social security number is zero eight five three six nine five two two. And the security question that I would like to choose is what is your pet's first name. And my pet's name is Doodles.",banking_307,OpenBankingAccount
+57,Are you able to help me close one of my accounts?,banking_103,CloseBankAccount
+58,"I was hoping to open up a new bank account with you guys, is that something you're able to help out with?",banking_322,OpenBankingAccount
+59,What purchases did I make on my credit card yesterday?,banking_101,CheckTransactionHistory
+60,Update cell phone number please.,banking_404,UpdatePhoneNumber
+61,"Hello, I wanna find the closest ATM.",banking_199,FindATM
+62,Hi I'd like to report a stolen credit card. The number is one four two six eight nine nine five four eight six three.,banking_333,ReportLostStolenCard
+63,I saw a notification. Could you tell me what my last charge was. On my debit card.,banking_092,CheckTransactionHistory
+64,Hi there. How much can I take out per day?,banking_265,GetWithdrawalLimit
+65,I'm trying to find out the upper limit for withdrawals,banking_270,GetWithdrawalLimit
+66,Need to close out my checking account today,banking_131,CloseBankAccount
+67,Can you send me the address of your closest ATM,banking_194,FindATM
+68,What are your business days? I was hoping to stop by to make a deposit.,banking_022,GetBranchHours
+69,"Hi, I was wondering if you can help me check the balance of my account please.",banking_068,CheckAccountBalance
+70,"Hi, I would like to update my address.",banking_358,UpdateStreetAddress
+71,"Hi there, I need to report a stolen credit card.",banking_335,ReportLostStolenCard
+72,"Good morning, please help me check the balance of an existing account. The banking the bank account number is eight nine zero seven eight six five four three two.",banking_058,CheckAccountBalance
+73,What options do you offer for online banking?,banking_257,SetUpOnlineBanking
+74,What is the current balance on my credit card?,banking_081,CheckAccountBalance
+75,I'm really upset right now but my credit card has been stolen.,banking_343,ReportLostStolenCard
+76,I was wondering if you have any branch locations in Chicago,banking_235,FindBranch
+77,Hi I wanna wire sixty dollars from my account to a different account at Chase.,banking_177,ExternalWireTransfer
+78,Hi there. I need to wire a payment to another bank.,banking_180,ExternalWireTransfer
+79,I'm planning to close one of my accounts with you. Can you help with that?,banking_129,CloseBankAccount
+80,What time am I able to visit a branch?,banking_026,GetBranchHours
+81,Hello could you help me get the closest ATM to where I'm currently situated?,banking_198,FindATM
+82,Hi I'd like to transfer funds from my savings account to my checking account.,banking_287,InternalFundsTransfer
+83,"Hello, I need to transfer some money to my checking account.",banking_285,InternalFundsTransfer
+84,I decided to cancel my card and close the account. Can you assist me please?,banking_118,CloseBankAccount
+85,"Yeah, I wanted to transfer funds from one of my accounts to another one. Is that possible?",banking_304,InternalFundsTransfer
+86,"Hi there, I want to update my cell number on file",banking_393,UpdatePhoneNumber
+87,"Hey, are there any ATMs that are nearby?",banking_202,FindATM
+88,Are you able to help me view my recent transactions? I need to look over a few things,banking_082,CheckTransactionHistory
+89,An airline I purchased a ticket from canceled my flight and is not giving me a refund. Can I dispute the charge?,banking_134,DisputeCharge
+90,Help with phone number update,banking_391,UpdatePhoneNumber
+91,How do I use your app? I want to get set up for online banking?,banking_247,SetUpOnlineBanking
+92,Do you offer online banking?,banking_242,SetUpOnlineBanking
+93,"Good afternoon, could you help me update my address?",banking_348,UpdateStreetAddress
+94,"Hello, I wanna find the bank branch closest to me.",banking_221,FindBranch
+95,I think there was a billing error and I'd like to dispute the charge. Is that possible?,banking_157,DisputeCharge
+96,Hi there. I am going to close my account and if possible would like to do it over the phone.,banking_116,CloseBankAccount
+97,Do your ATMs accept cash deposits?,banking_002,AskAboutCashDeposits
+98,"Hi, I'd like to find the closest physical branch to where I'm at. I'm in thirteen three hundred forty-seven Westheimer Road, Houston, Texas, seven seven zero eighty-two. Thanks.",banking_231,FindBranch
+99,What is my checking account balance?,banking_080,CheckAccountBalance
+100,I want to change my e-mail address,banking_380,UpdateEmail
+101,"Hello, I would like to check the balance of my account.",banking_060,CheckAccountBalance
+102,I'm trying to update my email.,banking_385,UpdateEmail
+103,Is there a limit on withdrawals?,banking_271,GetWithdrawalLimit
+104,Hello. How do I check my purchase history?,banking_088,CheckTransactionHistory
+105,Can you help me block my card? I think it was stolen,banking_326,ReportLostStolenCard
+106,How long from now can I expect the payment to be received?,banking_038,AskAboutTransferTime
+107,I'd like to report a stolen card. What should I do?,banking_341,ReportLostStolenCard
+108,"Do I need to write a dispute letter, or can you help me dispute the charge?",banking_136,DisputeCharge
+109,"Yeah, just looking to find the closest branch to where I live. Could you help me with that?",banking_238,FindBranch
+110,I moved to Boston recently and was hoping you could help me find one of your branches near me.,banking_234,FindBranch
+111,What days of the week are your branches open?,banking_024,GetBranchHours
+112,"Hey, good morning. My name is Robert Russell and I'm trying to open up a bank account with you today.",banking_310,OpenBankingAccount
+113,I'd like to check the balance of my existing account please.,banking_078,CheckAccountBalance
+114,Hi there. Could you tell me the total amount I have right now in checking?,banking_067,CheckAccountBalance
+115,"I would like to close my account at the bank and transfer all the remaining funds to a different account. So my current account is two ninety-three, six twenty sixty is the one I wanna close.",banking_125,CloseBankAccount
+116,Close my savings account,banking_105,CloseBankAccount
+117,"Yeah my credit card might've been stolen this morning, is there any way you guys can help me?",banking_344,ReportLostStolenCard
+118,I need to update my work phone number.,banking_398,UpdatePhoneNumber
+119,I'm looking for one of your ATMs. Can you help me find one?,banking_212,FindATM
+120,"Do I need to go to a branch to deposit cash, or can I do it at an ATM?",banking_001,AskAboutCashDeposits
+121,What time do you open on business days?,banking_027,GetBranchHours
+122,Hello. Kindly change email address,banking_372,UpdateEmail
+123,"I need to wire some money to another account, are you able to help with that?",banking_188,ExternalWireTransfer
+124,Can you show me the balance of my savings account?,banking_053,CheckAccountBalance
+125,Check transaction history please,banking_086,CheckTransactionHistory
+126,I want to cancel and close my credit card ASAP,banking_121,CloseBankAccount
+127,Help change email please,banking_374,UpdateEmail
+128,I'm having trouble setting up the app for online banking. Can you help?,banking_254,SetUpOnlineBanking
+129,Yeah could you help me send a wire transfer? I want to send it to my friend's bank account.,banking_191,ExternalWireTransfer
+130,What are the hours for your branches in LA?,banking_021,GetBranchHours
+131,Update my cell number.,banking_405,UpdatePhoneNumber
+132,I noticed a fraudulent payment on statement and would like to cancel it.,banking_153,DisputeCharge
+133,Can you tell me if any branches will be open on Sunday?,banking_012,GetBranchHours
+134,"Hi, I'd like to know what is the closest physical branch to me?",banking_232,FindBranch
+135,Can you help me with an international wire transfer?,banking_167,ExternalWireTransfer
+136,Can you help me see my transactions?,banking_083,CheckTransactionHistory
+137,I'd like to close all of my accounts with you today.,banking_126,CloseBankAccount
+138,Will your ATM allow me to deposit cash?,banking_009,AskAboutCashDeposits
+139,"Hi, I need to report a lost credit card and pause its use.",banking_338,ReportLostStolenCard
+140,Hello there I would like to transfer funds from one account to another. My withdrawal bank account number is one seven five zero nine two eight three seven five eight one. The deposit bank account number is nine nine four eight seven two eight four zero four seven one. I would like to transfer five hundred dollars.,banking_284,InternalFundsTransfer
+141,Hi. I'm in need of some quick cash. I'd like you to point me to the closest ATM.,banking_208,FindATM
+142,"Hi, I just wanted to check on something because it seems like there's a log of a purchase that I didn't make so I wanted to check if everything's all right.",banking_146,DisputeCharge
+143,I was just doing my budget and saw a transaction that I didn't authorize and I'd like some help dealing with that.,banking_159,DisputeCharge
+144,"Hi I just want to know, what is the closest branch to me?",banking_225,FindBranch
+145,Hi I want to open a checking account.,banking_311,OpenBankingAccount
+146,"Hello, I'd like to do a domestic wire transfer.",banking_175,ExternalWireTransfer
+147,Yes I would like to report that my credit card has been lost. My number is five three four seven six four five zero eight six one four two four four eight I lost it around September thirteenth. I think the last thing I bought was McDonald's.,banking_346,ReportLostStolenCard
+148,"Hi, I was just looking to transfer some funds from account five eight nine nine seven six five four to my other bank account eight six five nine seven two one. And I'd like that to be fifteen dollars.",banking_291,InternalFundsTransfer
+149,I'm not sure how to do this over the android app. Can you show me how to set it up?,banking_255,SetUpOnlineBanking
+150,Hi I'm just wanted to report that my credit card was stolen. The credit card number is four one four seven two zero eight nine nine eight seven seven six five five five. I lost it on September first and I think I last spent the money at Metro Market.,banking_334,ReportLostStolenCard
+151,"After some thought, I decided to close one of my accounts. Can you help me transfer the rest of my funds to a different account?",banking_102,CloseBankAccount
+152,Hello I want to do an internal transfer of funds from one account to another.,banking_283,InternalFundsTransfer
+153,I'd like to do my banking online. Can you show me how to set that up?,banking_251,SetUpOnlineBanking
+154,"Hi, my name is Lance Armstrong, and I'd like to open an account.",banking_319,OpenBankingAccount
+155,I have to change my home phone number,banking_395,UpdatePhoneNumber
+156,Hi I'm gonna be moving states soon and I wanted to close my account and then transfer the remaining funds to a different one. Is that possible?,banking_114,CloseBankAccount
+157,"Good morning this is pretty urgent, I need you to pull up my account so I can check the balance.",banking_057,CheckAccountBalance
+158,Yeah I wanna transfer some funds from one of my accounts to another. Same bank.,banking_302,InternalFundsTransfer
+159,I'm looking for an ATM near me in New York,banking_211,FindATM
+160,I need to change the phone number on my account. The pin is 1251.,banking_396,UpdatePhoneNumber
+161,What's the normal wait time for a wire transfer to go through?,banking_049,AskAboutTransferTime
+162,"Hi there can you assist me in finding the nearest ATM in my vicinity? I'm located at this address, it's one eight six eight seven Santa Rosa Drive. That would be in Detroit, Michigan.",banking_205,FindATM
+163,"Hello, I'd like to update my address to seven four three Mason Lane.",banking_354,UpdateStreetAddress
+164,I need to make a wire transfer.,banking_184,ExternalWireTransfer
+165,"Good afternoon, I'm looking to close down my account. I need to transfer the remaining funds to a different account of mine. Thank you.",banking_106,CloseBankAccount
+166,"I want to find the closest ATM to Tustin, California.",banking_192,FindATM
+167,Do your branches in Chicago have ATMs?,banking_195,FindATM
+168,Hello. I was wondering how long it typically takes for a payment to go through via wire transfer.,banking_033,AskAboutTransferTime
+169,How do I get online banking set up?,banking_246,SetUpOnlineBanking
+170,"Hi, I'm looking to open a new account.",banking_318,OpenBankingAccount
+171,I need to dispute a charge for something that I bought never received,banking_151,DisputeCharge
+172,Any of your cash machines nearby me?,banking_193,FindATM
+173,What's your nearest cash machine.,banking_217,FindATM
+174,How much money do I owe right now on my credit card?,banking_073,CheckAccountBalance
+175,I saw a purchase on my statement that I definitely didn't make. What do I do?,banking_156,DisputeCharge
+176,How do I see what transactions I've made recently?,banking_090,CheckTransactionHistory
+177,Can I change my phone number,banking_387,UpdatePhoneNumber
+178,I was just like help with an address update.,banking_363,UpdateStreetAddress
+179,Hi can you please tell me when my payment will post?,banking_034,AskAboutTransferTime
+180,Hello. I would like to change my work phone number.,banking_390,UpdatePhoneNumber
+181,I would like to update my phone number on my account please. Last name Smith.,banking_400,UpdatePhoneNumber
+182,"Hi, I lost my credit card yesterday on September ninth twenty twenty-one.",banking_337,ReportLostStolenCard
+183,Can you show me my spending history for the last three days?,banking_085,CheckTransactionHistory
+184,Phone change,banking_403,UpdatePhoneNumber
+185,"Hi, I want to close my checking account. I have no use for it anymore.",banking_117,CloseBankAccount
+186,"Yes I need to update my address. My account number is five five two eight seven seven ninety two, and my new address is two seventy, Dairy Road, Kahului, Hawaii, nine six seven three two.",banking_365,UpdateStreetAddress
+187,"Hey, can I do a wire transfer? I'm trying to send like fifty thousand to another account.",banking_176,ExternalWireTransfer
+188,Hi the purchase that I made was five dollars but the receipt says it's eight dollars. I would like to dispute it.,banking_143,DisputeCharge
+189,How long will it take for me to receive my money?,banking_039,AskAboutTransferTime
+190,I want to updat my cell phone number please.,banking_399,UpdatePhoneNumber
+191,Can you help with wire transfers?,banking_168,ExternalWireTransfer
+192,Are there any daily limits on withdrawals?,banking_259,GetWithdrawalLimit
+193,Hi could you tell me the closest physical branch to where I'm at right now? My address is seven hundred East Maple Street.,banking_224,FindBranch
+194,Hi there can you help me do just like an internal transfer between two of my accounts?,banking_289,InternalFundsTransfer
+195,Show me my savings account available balance,banking_079,CheckAccountBalance
+196,Is closing an account something that you can help with?,banking_130,CloseBankAccount
+197,"Hello I would like to find the closest bank near where I live. I live in sixty-seven dash thirty-seven Rose Avenue Boston, Massachusetts.",banking_220,FindBranch
+198,Email address update,banking_368,UpdateEmail
+199,"Hello, I would like to perform a wire transfer to send money from my current bank account to another bank account.",banking_174,ExternalWireTransfer
+200,"Hello, I need the change my email on my account. The pin number is 5143",banking_371,UpdateEmail
+201,Do your ATMs take cash deposits? Or do I need to come in to a branch.,banking_003,AskAboutCashDeposits
+202,Tell me when the transfer will happen,banking_044,AskAboutTransferTime
+203,What's the maximum amount you are allowed to withdraw from an account?,banking_277,GetWithdrawalLimit
+204,"Yeah, my card got stolen.",banking_345,ReportLostStolenCard
+205,"Hi, I'd like to transfer funds from my checking account to my savings account.",banking_293,InternalFundsTransfer
+206,When does that branch close on Mondays?,banking_030,GetBranchHours
+207,Hi I'd like to check the balance of one of my accounts.,banking_064,CheckAccountBalance
+208,Can you help me reverse a payment on statement for something I didn't buy?,banking_135,DisputeCharge
+209,"Hey, I just moved houses, and can I update my address here?",banking_356,UpdateStreetAddress
+210,Yeah I was wondering if it was possible to move some money from one account to another.,banking_303,InternalFundsTransfer
+211,How long will the transfer take?,banking_040,AskAboutTransferTime
+212,"Hi there, I think I lost my credit card",banking_336,ReportLostStolenCard
+213,Hey there. I would like to find the closest ATM to my address.,banking_201,FindATM
+214,Hi I was wondering when a branch is closing today.,banking_014,GetBranchHours
+215,"Good afternoon, I was wondering if you could help me find the closest ATM near my address. I live on one two nine one nine Tipton Highway. That's in the city of Clinton, Michigan.",banking_196,FindATM
+216,Can I check the balance of my listing account? My account number is nine one seven one nine four nine five.,banking_052,CheckAccountBalance
+217,"Hello, can you help me perform a wire transfer? The withdrawal bank account number is six zero one nine two three nine four eight two five seven. I would like to send four hundred dollars.",banking_172,ExternalWireTransfer
+218,Hi I want to wire sixty dollars from this checking account to a different checking account.,banking_178,ExternalWireTransfer
+219,I've been waiting an hour and still haven't seen my payment go through. How long does it usually take?,banking_043,AskAboutTransferTime
+220,"Hi, I believe the most recent transaction on my account is fraud.",banking_145,DisputeCharge
+221,I need to transfer five hundred dollars from checking to savings,banking_295,InternalFundsTransfer
+222,Make a five hundred dollar transfer from savings to my checking account,banking_297,InternalFundsTransfer
+223,I need to wire some money internationally.,banking_187,ExternalWireTransfer
+224,I need to check my recent purchases,banking_091,CheckTransactionHistory
+225,"Hey there, this is Marc Ramirez and I would like to open an account with you today.",banking_309,OpenBankingAccount
+226,Tell me the daily withdrawal limit from an ATM,banking_274,GetWithdrawalLimit
+227,What did I buy last week with my debit card?,banking_100,CheckTransactionHistory
+228,Hi there I'd like to set up a wire transfer from my account to an external bank. The account that I have is the one ending with five eight six six.,banking_179,ExternalWireTransfer
+229,Is it possible for me to manage my account online?,banking_256,SetUpOnlineBanking
+230,I need to dispute a charge on my credit card. Please can you help me?,banking_152,DisputeCharge
+231,Are your branches open on Saturdays?,banking_010,GetBranchHours
+232,I decided to close my credit card. I don't use it anymore. Can you help?,banking_119,CloseBankAccount
+233,"Hello, I'd like to update my phone number to 714-123-6154 on my account please.",banking_389,UpdatePhoneNumber
+234,"Hi, I'd like to make this quick. I want to transfer eight hundred twenty-five dollars from my account to another. The number of my account is two five four one four one two nine nine five nine nine. The account number I would like to deposit that to is four four two six nine eight eight nine seven four six one.",banking_292,InternalFundsTransfer
+235,"Hi there, I wanted to check what the withdrawal limit is for my account",banking_264,GetWithdrawalLimit
+236,Hi there. I would like to update my cell number,banking_394,UpdatePhoneNumber
+237,"Hi, good morning. I need to verify some purchases from my transaction history, can you help with that?",banking_089,CheckTransactionHistory
+238,"I was hoping to quickly check my balance, can you help with that?",banking_077,CheckAccountBalance
+239,"Yeah, I was going through my most recent statement and I noticed there was a transaction that I didn't make.",banking_165,DisputeCharge
+240,I'd like to update my phone number is 413-513-1234.,banking_401,UpdatePhoneNumber
+241,Good afternoon. I need to check the balance of an existing account.,banking_056,CheckAccountBalance
+242,How late will you be open tonight? I need to make an in person deposit after work,banking_017,GetBranchHours
+243,Good evening. I was wondering if you could set aside some time for me as I would like to open a new bank account.,banking_306,OpenBankingAccount
+244,I'm looking for one of your cash machines to make a quick withdrawal.,banking_213,FindATM
+245,What hours are you going to be open on Christmas Eve?,banking_025,GetBranchHours
+246,I want to update my e-mail.,banking_381,UpdateEmail
+247,"Hello I've been a customer with you for many years, but I'm looking to close this account and transfer the remaining funds into my new bank account.",banking_108,CloseBankAccount
+248,Hi I'd like to dispute one of the charges on my account. The account number is one five six three three one four two one eight.,banking_139,DisputeCharge
+249,I want to deposit some cash and was wondering if it could be done at a local ATM.,banking_005,AskAboutCashDeposits
+250,"Hello, can you help me wire some money to another account? I'd like to withdraw about one thousand three hundred dollars from the account number eight two one eight one nine three four five seven seven one. And then I'd like to deposit that into the account of my best friend. I believe that number is five one four seven six six three eight six zero six nine.",banking_173,ExternalWireTransfer
+251,Am I able to do online banking? Can you show me how?,banking_239,SetUpOnlineBanking
+252,Hi there can you tell me if you will be open at 7am?,banking_015,GetBranchHours
+253,Hi there I have a new address in Salt Lake city. Could you please help me update that?,banking_357,UpdateStreetAddress
+254,"I need to set up an international transfer, do you allow that?",banking_186,ExternalWireTransfer
+255,Good morning I wanna close my account as I will be switching banks. My account number is three zero eight zero one seven nine zero four four nine four.,banking_107,CloseBankAccount
+256,How do I access your online banking portal?,banking_245,SetUpOnlineBanking
+257,"Yeah I wanted to open up a new bank account with you guys, can we do that here?",banking_324,OpenBankingAccount
+258,"Hi, I am so excited because I finally get to open account with this bank. Can you help me?",banking_314,OpenBankingAccount
+259,View transactions,banking_099,CheckTransactionHistory
+260,Can you give me your branch hours?,banking_011,GetBranchHours
+261,I wanted to check a good time to stop by one of your branches.,banking_018,GetBranchHours
+262,"Good evening, can you help me transfer funds from my checking account into my savings account?",banking_281,InternalFundsTransfer
+263,I'd like help with a wire transfer.,banking_189,ExternalWireTransfer
+264,"I need a checking account and debit card, can you help set up the account?",banking_321,OpenBankingAccount
+265,Yeah could you help me move some funds from one account to another? I'd like to take it out of the account that's nine nine eight seven one four four seven seven zero.,banking_301,InternalFundsTransfer
+266,"Hello, I would like to check the balance of my checking account.",banking_061,CheckAccountBalance
+267,"Hello, I would like to update my address. My credit card number is five two six two three two six one eight five eight five nine six three two. And my street address is sixty-three dash forty-five Seventh Avenue. City is New Haven. State is Connecticut. Zip code is one two three five six.",banking_353,UpdateStreetAddress
+268,"Hello, I would like to, I'm calling because I lost my credit card. My credit card number is five two six two two three zero one four six eight five nine nine five six. And the date of loss was yesterday September thirteenth two thousand twenty-one.",banking_331,ReportLostStolenCard
+269,Do you know if your offices in Manhattan will be open tomorrow?,banking_013,GetBranchHours
+270,I have to update my email address.,banking_378,UpdateEmail
+271,What days are you open?,banking_023,GetBranchHours
+272,"Yes I'd like to open a new bank account. My first name is Sarah, last name Martin, date of birth is November twelfth, two thousand and one. and social security number is two one zero nine six six three four two one. Security number sorry security question, I guess could be what is the name of my first pet and the answer would be Zingo that's Z. I. N. G. O.",banking_325,OpenBankingAccount
+273,I want to check the balance of the account numbered five three seven two nine three eight four one.,banking_074,CheckAccountBalance
+274,I need to change my business email address,banking_379,UpdateEmail
+275,I would like to change my email address,banking_384,UpdateEmail
+276,Do you have any branches in New York?,banking_218,FindBranch
+277,"Hello I'm in a bit of a panic as I just lost my credit card three days ago on September eleventh. The card's number is five four oh four three seven seven nine seven five zero zero two three nine eight, and my most recent purchase was some golf clubs.",banking_329,ReportLostStolenCard
+278,"Hello, I was wondering if you could help me check some transactions on my card",banking_087,CheckTransactionHistory
+279,I'd like to set up a wire transfer,banking_190,ExternalWireTransfer
+280,"Hi I would like to close my current account and transfer the funds to a different account that I own. My account number to close is five five five, six nine nine seven zero seven zero and the reason for closure is I've created a new account. Deposit routing number is five zero five zero five, two six. And the deposit account number is nine five five eight six two three two five six.",banking_112,CloseBankAccount
+281,Hi it's been a really busy day and I need to transfer some funds from my wife's account into mine.,banking_288,InternalFundsTransfer
+282,Hi I just happened to notice a strange purchase on my bill that I didn't seem to make. I'm disputing this because I would never spend four thousand five hundred dollars on a computer. The purchase was made on my credit card and that number should be five two two one two two four oh eight four seven six eight one eight one.,banking_138,DisputeCharge
+283,I was wondering if the ATM will accept a deposit,banking_008,AskAboutCashDeposits
+284,"Hi, My name is Mark Abby and I wanted to update my email to mabby413@gmail.com",banking_377,UpdateEmail
+285,Could you please show me how to update my street address?,banking_347,UpdateStreetAddress
+286,Hello I was wondering if it's possible to wire money to some of my relatives overseas.,banking_171,ExternalWireTransfer
+287,I'd like to be able to check statements and make payments through the app. Can you help me out?,banking_249,SetUpOnlineBanking
+288,"Hello, I want to check the balance of my account.",banking_059,CheckAccountBalance
+289,Hello I want to update my address for the account with the credit card number nine two seven five three four six eight one five three eight two zero five nine.,banking_349,UpdateStreetAddress
+290,I'm waiting for the money to show up in my account from a transfer I made. When can I expect that to happen?,banking_042,AskAboutTransferTime
+291,"Hi, yes. I'd like to make a wire transfer.",banking_182,ExternalWireTransfer
+292,"Hello, I would like to update my address.",banking_352,UpdateStreetAddress
+293,"Hi, I want to find the closest Bank of America to zip code nine two four one five.",banking_230,FindBranch
+294,Hi I'd like to report a purchase on my account that I didn't make.,banking_140,DisputeCharge
+295,I'm trying to find the closest ATM.,banking_214,FindATM
+296,Hey I'm just looking to close my bank account and I want to transfer what money is left into one of my other accounts.,banking_110,CloseBankAccount
+297,I want to cancel all my cards and close my accounts with you today.,banking_120,CloseBankAccount
+298,How much can I withdraw from that account per day?,banking_267,GetWithdrawalLimit
+299,Hi I'd like to report an unauthorized purchase on my account.,banking_141,DisputeCharge
+300,How much can I withdraw?,banking_268,GetWithdrawalLimit
+301,"Hello, I'm trying to find the closest ATM to me. I'm in Boston.",banking_200,FindATM
+302,"Hello I lost my credit card, can you help me take care of it?",banking_328,ReportLostStolenCard
+303,"Hi, my credit card got stolen. it's credit card number four one four seven five six six two three two one four four four zero zero. I lost it on September third and I had most recently spent money at McDonald's.",banking_339,ReportLostStolenCard
+304,I was hoping to visit a branch and was wondering what time they close today,banking_019,GetBranchHours
+305,I wanted to confirm the balance of my savings account please.,banking_076,CheckAccountBalance
+306,"Hi there, could you give me an update on what my balance is?",banking_066,CheckAccountBalance
+307,"Typically, how many hours will it take for a wire transfer to post?",banking_045,AskAboutTransferTime
+308,"Hi, I made a transfer and was wondering how long it's going to take",banking_035,AskAboutTransferTime
+309,Good afternoon. Could you show me how to set up the app for online banking?,banking_243,SetUpOnlineBanking
+310,I need to update the address you have on file,banking_362,UpdateStreetAddress
+311,"Hi there, can you tell me when a local branch will open today?",banking_016,GetBranchHours
+312,See latest transactions,banking_095,CheckTransactionHistory
+313,See transactions,banking_096,CheckTransactionHistory
+314,I wanted to know how much the last charge was on my debit card.,banking_094,CheckTransactionHistory
+315,"Hi, I'd like to report suspicious activity. Someone bought like six hundred dollars'worth of food that I did not spend from my account.",banking_148,DisputeCharge
+316,I want to close my savings account. I just don't need it anymore.,banking_123,CloseBankAccount
+317,"I need to move some money from savings to checking, can you help?",banking_294,InternalFundsTransfer
+318,Someone billed me for something I didn't receive. Can we reverse the transaction?,banking_162,DisputeCharge
+319,Update to a new phone number.,banking_406,UpdatePhoneNumber
+320,Can you help me set up a new bank account with you?,banking_305,OpenBankingAccount
+321,I left my card at a restaurant and I think it was stolen. What can I do?,banking_340,ReportLostStolenCard
+322,"Hi there, I'm trying to locate one of your branches. Can you help me with that?",banking_227,FindBranch
+323,"Hi, I was checking my bank activity today and I saw there was a purchase I did not intend to make.",banking_147,DisputeCharge
+324,Would you be able to transfer two thousand from my checking account to my savings account?,banking_300,InternalFundsTransfer
+325,Hello my credit card has been stolen.,banking_330,ReportLostStolenCard
+326,I want to update my email to kburton515@gmail.com,banking_383,UpdateEmail
+327,Can I change my email address?,banking_367,UpdateEmail
+328,What's the max amount I can withdraw?,banking_276,GetWithdrawalLimit
+329,"Hello, I want to update the address associated with my accounts.",banking_351,UpdateStreetAddress
+330,I moved and need you to help me update the address,banking_360,UpdateStreetAddress
+331,Hi I'd like to check the balance of my account.,banking_063,CheckAccountBalance
+332,I don't recognize the most recent purchase on my account for two dollars and thirty-one cents.,banking_149,DisputeCharge
+333,"Yes, I'd like to update my address. My street address now is five five five N. King Street, Honolulu, Hawaii.",banking_366,UpdateStreetAddress
+334,I returned something but the money was never credited to my account. Can I dispute the original charge?,banking_154,DisputeCharge
+335,Check balance,banking_055,CheckAccountBalance
+336,I'd like to be able to make transfers and check statements through the app. How do I set up online banking?,banking_250,SetUpOnlineBanking
+337,Are there any limits on the amount I can withdraw?,banking_260,GetWithdrawalLimit
+338,Someone charged me the wrong amount for a skirt I bought and I'd like to cancel the charge.,banking_163,DisputeCharge
+339,How many hours does it take for an international transfer to go through?,banking_041,AskAboutTransferTime
+340,Was wondering when this payment will go through,banking_046,AskAboutTransferTime
+341,"Hi, could you get me the closest branch to my current location? Right now I'm in Gardena, California.",banking_229,FindBranch
+342,What's the withdrawal limit?,banking_278,GetWithdrawalLimit
+343,How much money do I have in my checking account right now?,banking_072,CheckAccountBalance
+344,I want to close my accounts with your bank effective immediately. I'm done with this terrible customer service.,banking_122,CloseBankAccount
+345,Hi I'd like to close one of my accounts and wire transfer the remaining funds to a different account.,banking_113,CloseBankAccount
+346,"Hi, I want to transfer funds from my checking account to my savings account.",banking_290,InternalFundsTransfer
+347,Show me my most recent transactions please,banking_097,CheckTransactionHistory
+348,Hello there. I've been waiting for a few hours and my payment still hasn't gone through. How long does it take?,banking_032,AskAboutTransferTime
+349,Can I do a wire transfer to another account? Yeah so my current account is zero one nine one nine two nine four and I wanna send nine hundred dollars to nine nine zero five eight eight ninety-one.,banking_166,ExternalWireTransfer
+350,I was wondering if you'd be able to help me close my checking account,banking_124,CloseBankAccount
+351,Hello I want to send money to a bank account overseas.,banking_170,ExternalWireTransfer
+352,I'd like to set up online banking,banking_252,SetUpOnlineBanking
+353,Hi this is Mary O'Neal and I am trying to open up an account with you. Could you help me with that?,banking_313,OpenBankingAccount
+354,Are cash deposits allowed at your ATMs?,banking_000,AskAboutCashDeposits
+355,How do I set up a bank account with you?,banking_320,OpenBankingAccount
+356,I'm pretty sure I lost my debit card and would like it to be canceled,banking_342,ReportLostStolenCard
+357,"Hi I wanna find the closest ATM to Nashville, Tennessee.",banking_204,FindATM
+358,What is the usual wait time for a transfer?,banking_047,AskAboutTransferTime
+359,I was wondering if I could ask a question. Do you take cash deposits at ATMs?,banking_007,AskAboutCashDeposits
+360,Can you help me transfer three thousand dollars from my checking account to savings account?,banking_280,InternalFundsTransfer
+361,Can you how long my transfer will take to go through?,banking_031,AskAboutTransferTime
+362,Transfer funds to other accounts.,banking_133,CloseBankAccount
+363,How much am I allowed to take out of my account on a given day?,banking_266,GetWithdrawalLimit
+364,Hi I'd like to find the closest physical location of this bank near me. I live like ten seventy-one Alamoana Boulevard in Honolulu Hawaii.,banking_226,FindBranch
+365,I need to update my cell,banking_397,UpdatePhoneNumber
+366,"Good evening, I was wondering if we can make this fast. I need to transfer some funds from my account into another.",banking_282,InternalFundsTransfer
+367,Can you help me cancel my credit card?,banking_104,CloseBankAccount
+368,Good afternoon. I just wanted to report that a credit card has been stolen. The credit card number is one five eight nine two eight nine one eight five zero one nine two eight three. And I lost it on August twentieth twenty twenty-one. And this is while I was shopping.,banking_327,ReportLostStolenCard
+369,"Hi this is Charles Brown, and I was interested in opening up an account with you guys.",banking_312,OpenBankingAccount
+370,"I'm just, I need some help with a transaction that I didn't mean to make can you help me with that?",banking_161,DisputeCharge
+371,"Hello, I'd like to find the branch that's closest to me.",banking_222,FindBranch
+372,"Hi, I'd like to make a wire transfer of five hundred dollars to another bank.",banking_181,ExternalWireTransfer
+373,When can I expect the money to be transferred?,banking_051,AskAboutTransferTime
+374,Help with an internal transfer,banking_286,InternalFundsTransfer
+375,Do you have an iPhone app for online banking?,banking_241,SetUpOnlineBanking
+376,"Hello I need to perform a wire transfer I want to send four hundred dollars, the withdraw bank account number is six six seven zero three four eight nine one seven two eight.",banking_169,ExternalWireTransfer
+377,"Hello I would like to update my address. My credit card number is five two six two three three six nine eight six seven nine five two five two and my street address is eighty-six dash thirteen Rose Avenue, Newhaven, Connecticut. one zero zero two five.",banking_350,UpdateStreetAddress
+378,How long do I have to wait for my transfer to be completed successfully?,banking_037,AskAboutTransferTime
+379,Hello. My name is Kelly. I'd like to update my business's email to kcarlton12233@gmail.com.,banking_373,UpdateEmail
+380,What's the typical time it takes for a transfer to take effect?,banking_050,AskAboutTransferTime
+381,I want to dispute a charge,banking_158,DisputeCharge
+382,I wanted to check the balance of my credit card please,banking_075,CheckAccountBalance
+383,Hello I'd like to open a bank account.,banking_308,OpenBankingAccount
+384,I need to update my mailing address for my account,banking_361,UpdateStreetAddress
+385,Max withdrawal amount,banking_272,GetWithdrawalLimit
+386,I'm moving and am switching to a bank with local branches. Can you help me close out my accounts?,banking_128,CloseBankAccount
+387,"Hi, I want to open a new checking account.",banking_316,OpenBankingAccount
+388,What time will my payment post?,banking_048,AskAboutTransferTime
+389,My name is John and I need to change the email for my account.,banking_386,UpdateEmail
+390,Hi I'd like to update my phone number to 512-124-5131,banking_392,UpdatePhoneNumber
+391,Hi there so there's a transaction from September third twenty twenty-one that I did not authorize. So I just wanted to report that. It was fifty-seven dollars and eighty-six cents.,banking_144,DisputeCharge
+392,How much do I have right now in savings,banking_071,CheckAccountBalance
+393,"You offer online banking, right? How do I set it up?",banking_258,SetUpOnlineBanking
+394,Hi I want to close my checking account at Bank of America. I just don't need it anymore.,banking_111,CloseBankAccount
+395,Need to make an internal transfer,banking_298,InternalFundsTransfer
+396,"I need a domestic wire transfer, can you help with that?",banking_183,ExternalWireTransfer
+397,"Hi there, my name is Craig Morkanth and I would like to set up online banking.",banking_244,SetUpOnlineBanking
+398,I saw a charge on my statement that I definitely didn't approve,banking_155,DisputeCharge
+399,"Hi, I would like to find the closest ATM to me.",banking_207,FindATM
+400,I want to manage my account myself. How do I set up the app for this?,banking_248,SetUpOnlineBanking
+401,Can you please just tell me the ATM withdrawal limit?,banking_261,GetWithdrawalLimit
+402,Please close my credit card ending in five two four six,banking_132,CloseBankAccount
+403,Is your branch open on Thanksgiving?,banking_020,GetBranchHours
+404,"Looking for the closest ATM, can you look that up for me?",banking_215,FindATM
+405,"Hello, I need to update my phone you have on file",banking_388,UpdatePhoneNumber
+406,Hello can you direct me to the closest ATM to me? I'm in Los Angeles California.,banking_197,FindATM
