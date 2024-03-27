@@ -29,12 +29,9 @@ This repo contains:
 ![training_data_before_after](https://github.com/splevine/harnessing-nlp-cx-demo/assets/4715331/c8cd9c6f-53c2-4922-ae46-12e8a57cc40c)
 
 
-Full presentation available on YouTube:
-[![Harnessing ML and NLP on YouTube](https://github.com/splevine/harnessing-nlp-cx-demo/assets/4715331/bee8223a-c345-4ce7-9074-da2f3484ffb0)](https://www.youtube.com/watch?v=_0LyvLoKt5Q)
-
-
 *Evaluation Data*
 ![eval_data_before_after](https://github.com/splevine/harnessing-nlp-cx-demo/assets/4715331/8b7dae07-d125-48a2-bb79-c41b0239d45b)
 
-
+Full presentation available on YouTube:
+[![Harnessing ML and NLP on YouTube](https://github.com/splevine/harnessing-nlp-cx-demo/assets/4715331/bee8223a-c345-4ce7-9074-da2f3484ffb0)](https://www.youtube.com/watch?v=_0LyvLoKt5Q)
 
