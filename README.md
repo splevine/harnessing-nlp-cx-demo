@@ -1,4 +1,6 @@
 # DataHour: Harnessing ML and NLP for Elevated Customer Experiences
+[Presentation on YouTube](https://www.youtube.com/watch?v=_0LyvLoKt5Q)
+
 [DataHour: Harnessing ML and NLP for Elevated Customer Experiences](https://datahack.analyticsvidhya.com/contest/datahour-harnessing-ml-and-nlp-for-elevated-customer-experiences/) 
 
 ## Presentation Takeaways
